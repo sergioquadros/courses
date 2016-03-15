@@ -189,6 +189,7 @@ text(modFit$finalModel, use.n=TRUE, all=TRUE, cex=.8)
 
 ```{r, dependson="createTree", fig.height=4.5, fig.width=4.5}
 library(rattle)
+rattle()
 fancyRpartPlot(modFit$finalModel)
 ```
 
